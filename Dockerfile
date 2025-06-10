@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /app/status
+WORKDIR /status
 
 RUN mvn clean package -DskipTests
 
