@@ -3,8 +3,8 @@ POST http://localhost:8080/status
 Content-Type: application/json
 
 {
-  "id": "123e4567-e89b-12d3-a456-426614174001",
-  "nombre": "Activo",
+  "id": "123e4567-e89b-12d3-a456-426614174003",
+  "nombre": "Eliminado",
   "fecha": "2025-05-28"
 }
 

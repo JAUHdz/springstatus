@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-StatusApplication<status>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.status.StatusApplication",
+            "projectName": "status",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
