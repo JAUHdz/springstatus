@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+WORKDIR /app/status
+
 RUN mvn clean package -DskipTests
 
 EXPOSE 8080
